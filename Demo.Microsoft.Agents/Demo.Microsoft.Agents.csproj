@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdaptiveCards" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Agents.Authentication.Msal" Version="0.1.26" />
+    <PackageReference Include="Microsoft.Agents.Hosting.AspNetCore" Version="0.1.26" />
+    <PackageReference Include="Microsoft.Agents.Protocols" Version="0.1.26" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.AzureOpenAI" Version="1.32.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Agents\Demo.Agents.csproj" />
+  </ItemGroup>
+
+</Project>
